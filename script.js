@@ -30,7 +30,6 @@ jQuery(document).ready(function () {
             let card = document.createElement("div");
             card.className = "col-sm-6 col-md-4 col-lg-3 d-flex my-2";
             card.innerHTML = `
-
                     <div class="card w-100">
                       <img src="${imagem}" class="card-img-top"
                       style="height:250px; object-fit:cover;" alt="${produto.name}">
